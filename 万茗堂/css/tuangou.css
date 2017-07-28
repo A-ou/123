@@ -1,0 +1,17 @@
+.goods_menu{display: none;}
+.goods_style:hover .goods_menu{display: block;}
+.head_nav li:nth-child(3){background:#f3e1e3;border-top: 3px #c30d23 solid;}
+.top_img{width: 100%;font-family: '微软雅黑'}
+.bg_img{height: 300px;width: 100%;overflow: hidden;}
+.t1{background: url(../images/ccjtg2017_3_01.jpg)center top no-repeat;}
+.t2{background: url(../images/ccjtg2017_3_02.jpg)center top no-repeat;}
+.t3{background: url(../images/ccjtg2017_3_03.jpg)center top no-repeat;}
+.t4{background: url(../images/ccjtg2017_3_04.jpg)center top no-repeat;height: 250px;}
+.hd_goods{height: 550px;background: url(../images/ccjtg2017_3_05.jpg)center top no-repeat;;}
+.hd_goods div{width: 1000px;margin: 0 auto;position: relative;overflow: hidden;}
+.hd_goods div a{float: left;height: 550px;width: 100%;}
+.hd_goods_line1{height: 560px;background:url(../images/ccjtg2017_3_06.jpg)center top no-repeat; }
+.single_goods{width: 1000px;margin: 0 auto;position: relative;overflow: hidden;}
+.a_left{width: 50%;height: 560px;float: left;}
+.line2{background:url(../images/ccjtg2017_3_07.jpg)center top no-repeat;height: 536px;}
+.line3{background:url(../images/ccjtg2017_3_08.jpg)center top no-repeat;}

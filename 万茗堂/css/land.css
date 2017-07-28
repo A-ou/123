@@ -1,0 +1,39 @@
+body{background: #f6f6f6;}
+header{height: 103px;width: 100%;min-width: 1200px;background: url(../images/qr_bg.gif);}
+.head_inner{width: 980px;margin: 0 auto;height: 103px;background: url(../images/logo1.png)left center no-repeat;overflow: hidden;}
+.head_inner a{float: left;width: 180px;height: 103px;}
+.tel{float: right;width: 260px;height: 103px;text-align: center;line-height: 103px;}
+.tel span{font-size: 18px;color:#774d4d; }
+.tel b{font-size: 22px;}
+/*****************section************************/
+section{width: 100%;min-width: 1200px;border-top: 3px solid #dedede}
+.login_wrap{background: #fff;width: 980px;margin: 0 auto;margin-top: 40px;margin-bottom: 40px;height: auto;overflow: hidden;border-radius: 5px;border:4px solid #efefef;}
+.left{float: left;}
+.left img{width: 468px;height: 420px;display: block;margin: 10px 10px;}
+.right{float: right;width: 400px;}
+.promt{height: 24px;padding: 44px 0 0 5px;color: #333333;font-family: '微软雅黑';font-size: 16px;}
+#user,#pasw{width: 302px;height: 34px;font-size: 14px;color: #686767;border:1px solid #cfcfcf;box-shadow: inset 0 1px 10px rgba(125,125,125,.25);margin-top: 20px;padding-left: 5px;}
+#user:hover{border:1px solid #000;}
+#pasw:hover{border:1px solid #000;}
+form{position: relative;overflow: hidden;}
+.use_bg{width: 20px;height: 20px;position: absolute;top: 30px;right: 100px;background: url(../images/login.png)0px -84px no-repeat ;}
+.psw_bg{width: 20px;height: 20px;position: absolute;top: 86px;right: 100px;background: url(../images/login.png)0px -84px no-repeat ;}
+.auto_pasw{margin-top: 10px;overflow: hidden;height: 48px;width: 100%;line-height: 48px;}
+#remember{position: relative;top: 2px;margin-right: 5px;}
+.auto_pasw a{display: inline-block;margin-left: 30px;text-decoration: underline;}
+#login{width: 130px;height: 48px;padding-bottom: 7px;color: #fff;font-family: '微软雅黑';font-size: 22px;cursor: pointer;outline: none;background: url(../images/usersp.png);border: none;float: left;}
+.register{float:left;font-size: 14px;color: #990000;font-weight: bold;margin-left: 20px; }
+.partner{width:340px;line-height: 40px;overflow: hidden;float: left;}
+.partner>li{width: 90px;height: 20px;border: 1px solid #e4e4e4;float: left;position: relative;margin:15px 4px 0 0;}
+.partner>li>a{width: 90px;height: 20px;display: inline-block;position: absolute;top: 0px;left: 0px;}
+.qq{background: url(../images/login.png)0 -1px no-repeat;;}
+.zfb{background: url(../images/login.png)0 -20px no-repeat;;}
+.xlwb{background: url(../images/login.png)0 -43px no-repeat;;}
+.rrw{background: url(../images/Connect_login_button_def.jpg)0 0 no-repeat;;}
+/****************footer****************************/
+footer{width:980px;height: 132px;margin:0 auto;}
+.CopyR{text-align: center;}
+.CopyR a{color: #333}
+.ft_bot{margin-top: 12px;text-align: center;}
+.ft_bot p{text-align: center;margin-bottom: 15px;margin-left: 160px;overflow: hidden;}
+.ft_bot p a{float: left;margin: 0 14px;}

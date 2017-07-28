@@ -1,0 +1,110 @@
+.head_nav li:nth-child(1){background:#f3e1e3;border-top: 3px #c30d23 solid;}
+.goods_menu{width: 190px;height: 418px;z-index: 1;border-bottom: 3px solid #c30d23;background: url(../images/menubg.jpg)0 0 no-repeat;}
+/***********************************透明滚动*****************************/
+#outer{width: 100%;min-width: 1190px;height: 440px;position: relative;overflow: hidden;}
+#outer a {height: 440px;width: 100%;position: absolute;overflow: hidden;}
+#lis{position: absolute;bottom: 30px;width: 150px;left: 50%;margin-left: -75px;}
+#lis li{float: left;width: 20px;height: 20px;line-height: 20px;text-align: center;border-radius: 50%;background-color: #fff;margin-left: 10px;cursor: pointer;}
+.lis_color{color: #fff;}
+.lis_color2{background-color: red;}
+#lis li:nth-child(1){background-color: red;color: #fff}
+#left{width: 60px;height: 150px;position: absolute;top:50%;margin-top: -75px;left: 8%;margin-left: -75px;background: url(../images/left_right.png)-100px 50px no-repeat;}
+#right{width: 60px;height: 150px;position: absolute;top:50%;margin-top: -75px;right: 4%;margin-left: -75px;background: url(../images/left_right.png)0px 50px no-repeat;}
+/********************************************************/
+.sw,.style_show{overflow: hidden;}
+.style_show_box{width: 900px;text-align: left;position: relative;float: left;height: 366px;}
+.style_show_tit{overflow: hidden;}
+.style_show_tit li{float: left;width: 225px;cursor: pointer;font-size: 15px;text-align: center;position: relative;height: 40px;line-height: 40px;z-index: 1;}
+.style_show_tit li:nth-child(1){border-bottom: 2px solid #c11629;}
+.con{width: 898px;height: 323px;overflow: hidden;}
+.goods{overflow: hidden;width: 900px;background-color: #fff;border-top:2px solid #dedede;display: none; }
+.goods li{float: left;margin-right: 25px;height: 323px;}
+.goods li img {height: 200px;width: 200px;}
+.goods li div{border-right: 1px solid #dedede;}
+.goods li div p a:hover{text-decoration: underline;}
+.goods li div p a{float: left;height: 50px;}
+.goods li:nth-child(4) div{border-right: none;}
+.goods li p{margin-top: 10px;font-size: 14px;overflow: hidden;}
+.goods li h3{text-align: left;margin: 20px 0 17px 0;font-size: 15px;color:#b9010b; }
+.news_tit{height: 42px;}
+.news{float: right;width: 280px;}
+.news h2{font-size: 15px;height: 20px;float: left;border-left: 5px solid #c30d23;padding-left: 10px;margin-top: 13px;}
+.more{float: right;height: 20px;margin-top: 13px;}
+.more:hover{text-decoration: underline;}
+.news_con_out{background-color: #fff}
+.news_con{padding-top: 20px;height: 130px;border-top: 2px solid #dedede;overflow: hidden;}
+.news_con li{float: left;width: 248px;margin: 0 16px 16px 16px;height: 16px;display: inline;line-height: 16px;overflow: hidden;background: url(../images/dian.gif)left center no-repeat;}
+.news_con li:hover{text-decoration: underline;}
+.news_con li a{color: #666;padding-left: 10px;width: 206px}
+.new_img {height: 173px;width: 280px;overflow: hidden;}
+.new_img img{height: 173px;width: 280px;}
+/**************************本月推荐*******************************/
+.months{overflow: hidden;background-color: #fff;}
+.this_mon{width: 100%;}
+.this_mon_tit {border-bottom: 2px solid #cc3333;overflow: hidden;}
+.this_mon_tit p{float: left;line-height: 24px;line-height: 24px;font-weight: bold;border-left: 5px solid #c30d23;padding-left: 10px;margin: 10px 0 10px 7px;font-size: 20px}
+.this_mon_tit p span{font-size: 16px;font-weight: normal;}
+.this_mon_con{float: left;width: 902px;overflow: hidden;background-color: #fff;}
+.this_mon_con ul{margin: 10px 0 0 10px;height: 452px;}
+.this_mon_con ul li{float: left;width: 263px;background-color: #eee;padding: 8px;border: 1px solid #eee;margin-left: 10px;height: 424px;position: relative;}
+.this_mon_con ul li:hover{border:1px solid red;background-color: #f9f9f9;}
+.this_mon_con ul li h3{font-size: 14px;font-weight: bold;padding-top: 20px;height: 22px;}
+.this_mon_con ul li h3:hover{text-decoration: underline;}
+.this_mon_con ul li h4{font-size: 12px;font-weight: normal;padding-top: 15px;height: 32px;line-height: 16px;}
+.this_mon_con ul li div{font-weight: bold;float: left;padding-right:22px;margin-top: 15px;color: #fff;background:url(../images/sg_jg.png)right center no-repeat ;position: absolute;bottom:20px;}
+.this_mon_con ul li p{background-color: #cd1010;padding-left: 10px;}
+.this_mon_con ul li p span{font-size: 26px;color: #fff600;}
+.this_mon_right{float: left;width: 288px;overflow: hidden;}
+.this_mon_right_tit{float: left;width: 288px;height: 28px;line-height: 28px;background-color: #cd3333;text-align: center;font-size: 15px;color: #fff;}
+.this_mon_right_wrapper{height: 376px;overflow: hidden;float: left;}
+.first{overflow: hidden;float: left;width: 250px;margin-top: 20px ;border-bottom: 1px dotted #c1c1c1;}
+.first h3{width: 250px;height: 45px;line-height: 45px;cursor:pointer;overflow: hidden;font-weight: normal;font-size: 14px;}
+.small{color: #cd0100;float: left;width: 45px;}
+.first h1{font-size: 22px;color: #cd0100;margin-bottom: 10px;font-weight: normal;}
+.first_img {float: left;}
+.first_img img{width: 100px;height: 100px;}
+.recom{float: left;width: 140px;margin-left: 10px;margin-top: 10px;}
+.recom p{height: 32px;overflow: hidden;line-height: 16px;}
+.recom p a:hover{text-decoration: underline;}
+.recom div{margin-top: 10px;}
+.price{font-size: 15px;font-weight: bold;color: #cd0100}
+.second{margin: 0;}
+.cang{overflow: hidden;height: 0px;height: 142px;display: none;}
+.cang1{overflow: hidden;height: 0px;height: 142px;display: none;}
+/****************/
+.hot_goods{overflow: hidden;float: left;width: 250px;margin-top: 20px ;border-bottom: 1px dotted #c1c1c1;}
+.hot_goods h3{width: 250px;height: 45px;line-height: 45px;cursor:pointer;overflow: hidden;font-weight: normal;font-size: 14px;}
+.small{color: #cd0100;float: left;width: 45px;}
+.hot_goods h1{font-size: 22px;color: #cd0100;margin-bottom: 10px;font-weight: normal;}
+.second{margin: 0;}
+/********************************************************/
+.single_img{margin-bottom: 10px;margin-top: 20px;}
+.classical{width: 100%}
+.this_mon_tit a{float: right;color: #fff;height: 20px;line-height: 20px;margin-top: 12px;background-color: #000;padding: 0px 5px;}
+.clsic{overflow: hidden;background-color: #f9f9f9;border-bottom: 2px solid #333;}
+.clsicWrapper_left{float: left;width: 902px;overflow: hidden;background-color: #fff;}
+.clsicWrapper_left_topLeft{width: 240px;float: left;}
+.clsicWrapper_left_topLeft_img{float: left;}
+.clsicWrapper_left_topLeft_img img{float: left;width: 240px;height: 150px;}
+.clsicWrapper_left_topLeft ul{width: 239px;background-color: #eee;border-left: 1px solid #ddd;border-bottom: 1px solid #ddd;height: 143px;padding-top: 6px;overflow: hidden;}
+.clsicWrapper_left_topLeft ul li{height: 34px;line-height: 34px;margin: 0 25px;background: url(../images/recommended_text.gif)right center no-repeat;}
+.clsicWrapper_left_topLeft ul li a:hover{color: #cd0100;text-decoration: underline;}
+.clsicWrapper_left_topRight{width: 662px;height: 300px;overflow: hidden;float: left;position:relative;}
+.clsicWrapper_left_topRight a{width: 662px;height: 300px;position: absolute;display: none;}
+.clsicWrapper_left_bot ul li{float: left;width: 224px;height: 295px;border-left: 1px solid #ddd;border-bottom: 1px solid #ddd;overflow: hidden;}
+.clsicWrapper_left_bot ul li:nth-child(4){border-right: 1px solid #ddd; }
+.clsicWrapper_left_bot ul li:nth-child(8){border-right: 1px solid #ddd; }
+.clsicWrapper_left_bot ul li p{float: left;margin: 10px 14px 0 14px;}
+.bot_img img{width: 190px;height: 190px;text-align: center;transition:all 0.5s;}
+.bot_img a img:hover{transform:scale(1.1)}
+.bot_tit{height: 36px;line-height: 18px;}
+.bot_tit:hover{text-decoration: underline;}
+.bot_price{font-size: 15px;font-weight: bold;color: #cd0100;}
+.hot_goods{margin-left: 20px;}
+.RightBot{position: fixed;border:3px solid #de2222;bottom: 0px;right: 0px;}
+.RB{position: relative;width: 260px;height: 186px;overflow: hidden;}
+.RB a {width: 260px;height: 186px;display: none;}
+.RightBot ul{position: absolute;right: 0px;bottom: 5px;overflow: hidden;}
+.RightBot ul li{float: right;width: 15px;height: 15px;background: #fff;text-align: center;line-height: 15px;margin-left: 2px;}
+.RightBot ul li:nth-child(1){margin-right: 5px;}
+#rb_sty{background-color: red;color: #fff;}

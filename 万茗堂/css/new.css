@@ -1,0 +1,49 @@
+.head_nav li:nth-child(2){background:#f3e1e3;border-top: 3px #c30d23 solid;}
+.goods_menu{display: none;}
+.goods_style:hover .goods_menu{display: block;z-index: 2}
+/*************************************/
+#outer{width: 100%;min-width: 1190px;height: 440px;position: relative;overflow: hidden;}
+#outer a {height: 440px;width: 100%;position: absolute;overflow: hidden;display: none;}
+#lis{position: absolute;bottom: 30px;width: 150px;left: 50%;margin-left: -75px;}
+#lis li{float: left;width: 20px;height: 20px;line-height: 20px;text-align: center;border-radius: 50%;background-color: #fff;margin-left: 10px;cursor: pointer;}
+.lis_color{color: #fff;}
+.lis_color2{background-color: red;}
+#lis li:nth-child(1){background-color: red;color: #fff}
+.newGoods{width: 100%;background: #f9f9f9;font-family: '微软雅黑';}
+.newBox{width: 1000px;margin: 0 auto;overflow: hidden;}
+.newBox_tit{float: left;width: 1000px;height: 22px;line-height: 22px;margin: 24px 0 18px 0;font-size: 20px;font-weight: bold;border-left: 5px solid #c30d23;text-indent: 5px;}
+.new_goods{border:2px solid #e9e9e9;padding: 8px;overflow: hidden;margin-bottom: 18px;}
+.new_goods li{overflow: hidden;background: #fff;}
+.new_goodsImg{float: left;width: 600px;height: 310px;}
+.new_goodsImg img{width: 600px;height: 310px;}
+.new_goodsR{width: 350px;float: right;margin-left:7px;}
+.new_goodsR h2{height: 135px;border-bottom: 1px dashed #ccc;line-height: 24px;margin-top: 24px;font-size: 20px;font-weight: bold;color: #000}
+.new_goodsPrice{height: 69px;border-bottom: 1px dashed #ccc;}
+.new_goodsPrice li{float: left;width: 33%;text-align: center;font-size: 14px;}
+.new_goodsPrice li p{margin:10px 0;}
+.nowPrice{color: #e20000;}
+.nowPrice span{font-size: 26px;font-weight: bold;margin-top: -10px;display: block;}
+.nowPrice span em{font-size: 20px;}
+.buy_newGoods{overflow: hidden;}
+.buy_newGoods p{float: left;margin:30px 0 0 20px;color: #666;font-size: 12px;background: url(../images/rentou.jpg)left center no-repeat;height: 20px;line-height: 20px;padding-left: 24px;}
+.buy_newGoods p em{color: red;}
+.buy_newGoods a{float: right;width: 112px;height: 38px;line-height: 38px;text-align: center;margin:24px 30px 0 0;background: #da2222;font-size: 20px;color: #fff;}
+.hot_pro{width: 1020px;overflow: hidden;}
+.hot_pro li{background: #fff;float: left;width: 320px;height: 410px;border:1px solid #e9e9e9;margin: 0 15px 16px 0;}
+.hot_pro li p{margin:2px 10px;}
+.p1{text-align: center;margin-top: 5px;}
+.p1 img{width: 250px;height: 250px;transition:all 0.5s;}
+.p1 img:hover{transform:scale(1.1);}
+.p2{height: 5px;background:url(../images/cp_xian.gif)repeat;margin: 20px 10px 0 10px;}
+.p3{float: left;width: 300px;height: 18px;line-height: 18px;overflow: hidden;font-weight: bold;color: #646363;padding-top: 5px;font-size: 12px;}
+.p4{float: left;width: 300px;color: #ababab;font-weight: bold;padding-top: 5px;overflow: hidden;}
+.p4 span{float: left;color: #e83f3f;font-weight: bold;font-family: '微软雅黑';font-size: 14px;}
+.p4 b{float: right;margin-right: 22px;}
+.p4 a{float: left;color: #ababab;font-weight: normal;text-decoration: none;margin-right: 30px;}
+.p4 a i{font-style: normal;color: #e83f3f}
+.buy{float: left;margin-top: 10px;font-size: 18px;color: #fff;background-color: #da2222;width: 112px;height: 38px;line-height: 38px;text-align: center;}
+.add{margin-left: 20px;background: #fff url(../images/xing.jpg)5px center no-repeat;color: #000;border:1px solid #dedede;padding-left: 5px;}
+.active{width: 1020px;float: left;margin-bottom: 20px;}
+.active li{float: left;margin-right: 16px;border:1px solid #ccc;}
+.active li img{width: 322px;height: 171px;transition:all 0.5s;}
+.active li img:hover{transform:scale(1.1);}

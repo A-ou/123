@@ -1,0 +1,39 @@
+body{background-color: #fff;}
+.goods_menu{display: none;}
+.goods_style:hover .goods_menu{display: block;z-index: 2}
+section{width: 100%;min-width: 1200px;background: #fff}
+.car_wrapper{width: 1190px;margin: 0 auto;}
+.progress{background: #e9e8e8;height: 37px;width: 100%;margin-top: 10px;}
+.steps{overflow: hidden;}
+.progress li{float: left;;height: 37px;font-size: 16px;line-height: 37px;text-indent: 30px;width: 396px;}
+.progress li b{float: right;width: 26px;height: 37px;}
+.step1{background: #393939;color: #fff;}
+.step1 b{background: url(../images/progress1.png)no-repeat;}
+.step2 b{ background: url(../images/progress2.png)no-repeat;}
+.car_inner{margin-top: 25px;}
+.car_inner{background: url(../images/bg.png)repeat-x;height: 39px;line-height: 39px;border:1px solid #3a3a3a;}
+.car_goods{width: 460px;float: left;margin-left: 30px;}
+.car_goods2{width: 160px;text-align: center;float: left;}
+.num{width: 120px;}
+.action{margin-left: 20px;}
+.remove{margin-left: 80px;}
+.cart_tool{margin-top: 20px;overflow: hidden;}
+.control{float: left;overflow: hidden;}
+.control b{float: left;width: 12px;height: 16px;background: url(../images/shanchu.jpg)no-repeat;}
+.control span{float: left;}
+.total{padding-right:10px;float: right;font-size: 13px;line-height: 35px;}
+#selectNum{padding: 0 10px;}
+#shop_money{width: 80px;text-align: right;margin-left: 200px;}
+.total_new{float: right;height: 50px;width: 100%;line-height: 50px;text-align: right;background: #f6f6f6}
+.total_new span{width: 180px;font-size: 30px;color: #b44848;display: inline-block;}
+#go_shop,#go_pay{width: 115px;height: 37px;background: #b44848;line-height: 32px;color: #fff;text-align: center;box-shadow: 7px 9px 5px -5px #888888;}
+.btn{background: #fff;margin-top: 20px;}
+#go_shop{float: left;}
+#go_pay{float: right;}
+.guess_like{border-bottom: 1px solid #ccc;padding-bottom: 20px;padding-top: 30px;margin-bottom: 20px;margin: 0 auto;width: 1190px;}
+.guess_like_top{float: left;width: 100%;margin: 0 auto;margin-bottom: 30px;height: 22px;line-height: 22px;text-align: center;border-bottom: 1px solid #ccc;}
+.guess_like_top strong{font-weight: 400;font-size: 18px;padding: 0 20px;background: #fff;display: inline-block;height: 40px;line-height: 40px;}
+.goods_wrapper{overflow: hidden;position: relative;width: 100%}
+.goods_wrapper li{width: 202px;float: left;margin: 0 17px;overflow: hidden;text-align: center;}
+.pic{width: 202px;height: 202px;text-align: center;}
+.pic img{width: 200px;height: 200px;}
